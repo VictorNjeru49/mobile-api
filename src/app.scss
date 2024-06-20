@@ -1,0 +1,244 @@
+.one{
+    background: palevioletred;
+    padding: 30px;
+    border-radius: 0 0 0 120px;
+    height: fit-content;
+    margin: 10px auto;
+    img{ 
+        object-fit: contain;
+    }
+    .header{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    
+    .toplevel{
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        list-style: none;
+        margin: 0 auto;
+        justify-content: space-between;
+    }
+    .toggle{
+        list-style: none;
+        position: absolute;
+        display: flex;
+        transform: translate(-20%, -5%);
+        flex-direction: column;
+        text-align: start;
+    }
+    .toggle:hover{
+        display: flex;
+    }
+
+}
+    .times{
+        text-align: center;
+        margin-top: 150px;
+        margin-bottom: 20px;
+        h2{
+            font-size: 50px;
+        }
+        p{
+            font-size: 25px;
+        }
+    }
+    button{
+        background: transparent;
+        margin: 10px;
+        border: none;
+        border-radius: 20px;
+        box-sizing: none;
+        
+    }
+    .active{
+        background-color: white;
+        border: none;
+        border-radius: 25px;
+    }
+    .btn{
+        display: none;
+        font-size: 20px;
+    }
+    // .open{
+    //     display: none;
+    // }
+}
+.container{
+    
+    width: 90%;
+    margin: 0 auto;
+    h3{
+        text-align: center;
+        font-size: 45px;
+    }
+    h4{
+        text-align: start;
+        font-size: 35px;
+    }
+    p{
+        font-size: 25px;
+    }
+    img{
+        height: 500px;
+        width: 500px;
+    }
+    .firstmiddle{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .letter{
+        text-align: start;
+        padding-top: 190px;
+    }
+}
+.lastmiddle{
+    
+    width: 90%;
+    margin: 0 auto;
+    background-color: rgb(111, 135, 158);
+    border-radius: 0 120px ;
+    margin-top: 120px;
+
+    h4{
+        text-align: start;
+        font-size: 35px;
+    }
+    p{
+        font-size: 25px;
+    }
+    .phone{
+        transform: translate(0%, -25%);
+    }
+    img{
+        height: 500px;
+        width: 500px;
+    }
+    .topupper{
+        display: flex;
+        flex-direction: row;
+        padding-bottom: 30px;
+    }
+    .textfill{
+        padding-top: 40px;
+    }
+}
+.lastsection{
+    
+    width: 90%;
+    margin: 0 auto;
+    img{
+        height: 500px;
+        width: 500px;
+    }
+    .lengthen{
+        display: flex;
+        flex-direction: row;
+
+    }
+    h4{
+        text-align: start;
+        font-size: 35px;
+    }
+    p{
+        font-size: 20px;
+    }
+    .textformat{
+        padding-top: 50px;
+    }
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    background: dimgray;
+    justify-content: space-between;
+    padding: 20px 10px;
+    border-radius: 0 120px 0 0;
+    p{
+        font-size: 18px;
+    }
+    h6{
+        font-size: 30px;
+    }
+    img{
+        object-fit: contain
+    }
+
+}
+
+@media(max-width:900px){
+.one{
+    nav{
+        display: none;
+    }
+    .signiningup{
+        display: none;
+    }
+    .btn{
+        display: flex;
+    }
+}
+.container{
+    .firstmiddle{
+        display: flex;
+        flex-direction: column;
+    }
+    h4{
+        width: 60%;
+        text-align: center;
+        margin: 0 auto;
+    }
+    p{
+        width: 80%;
+        margin: 0 auto;
+        padding: 40px 10px;;
+    }
+    img{
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }
+}
+
+.lastmiddle{
+    .topupper{
+    display: flex;
+    flex-direction: column;
+    }
+    h4{
+        width: 60%;
+        text-align: center;
+        margin: 0 auto;
+    }
+    p{
+        width: 80%;
+        margin: 0 auto;
+        padding: 40px 10px;;
+    }
+}
+.lastsection{
+    .lengthen{
+        display: flex;
+        flex-direction: column;
+
+    }
+    h4{
+        width: 60%;
+        text-align: center;
+        margin: 0 auto;
+    }
+    p{
+        width: 80%;
+        margin: 0 auto;
+        padding: 40px 10px;;
+    }
+
+}
+.footer{
+    flex-direction: column;
+    text-align: center;
+}
+
+}
